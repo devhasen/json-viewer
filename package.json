@@ -1,0 +1,9 @@
+{
+  "name": "json-viewer",
+  "version": "1.0.0",
+  "description": "Pretty print and validate JSON from stdin or file",
+  "main": "dist/index.js",
+  "bin": { "jv": "dist/index.js" },
+  "scripts": { "build": "tsc", "start": "node dist/index.js" },
+  "devDependencies": { "typescript": "^5.0.0", "@types/node": "^20.0.0" }
+}
